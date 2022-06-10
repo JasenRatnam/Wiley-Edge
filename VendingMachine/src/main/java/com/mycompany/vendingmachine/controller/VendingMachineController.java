@@ -42,8 +42,7 @@ public class VendingMachineController {
         //initialisation
         boolean keepGoing = true;
         int menuSelection;
-        boolean haveFunds = false;
-        
+
         //while program is running
         try{
             //load items from file
@@ -55,10 +54,7 @@ public class VendingMachineController {
                 
                 // print choices and get choice from user
                 menuSelection = getMenuSelection();
-                                
-                //if funds have been added
-                haveFunds = getFunds().compareTo(new BigDecimal("0.00")) != 0;
-                
+                      
                 //get number of items
                 int itemCount = getNumberOfItems();
                 
@@ -66,7 +62,7 @@ public class VendingMachineController {
                 if(menuSelection == itemCount){
                     //exit
                     keepGoing = false;
-                } else if(menuSelection != 1 && !haveFunds){
+                } else if(menuSelection != 1 && !haveFunds()){
                     //no funds added and user tries to buy something
                     insufficientFundsBanner();
                 } else if(menuSelection == 1){
@@ -76,15 +72,16 @@ public class VendingMachineController {
                     //get items corresponding to number
                     int item = menuSelection -2;
                     selectItem(item);
+                    //return change of remaining funds to user
+                    getChange();
                 } else
                     unknownCommand();
-                
-                //return change of remaining funds to user
-                getChange(haveFunds);
             }
             
             //save all items updated to the same file
             saveItems();
+            //return change of remaining funds to user
+            getChange();
         }
         catch(VendingMachinePersistenceException e){
             displayError(e.getMessage());
@@ -219,11 +216,15 @@ public class VendingMachineController {
      * @param haveFunds return changes only if there is funds in the system
      * @throws VendingMachinePersistenceException if an error happens during the processs
      */
-    private void getChange(boolean haveFunds) throws VendingMachinePersistenceException {
-        if(haveFunds){
+    private void getChange() throws VendingMachinePersistenceException {
+        if(haveFunds()){
             view.displayChangeBanner();
             Change change = service.getChange();
             view.displayChange(change);
         }
+    }
+
+    private boolean haveFunds() {
+        return getFunds().compareTo(new BigDecimal("0.00")) != 0;
     }
 }

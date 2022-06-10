@@ -1,5 +1,5 @@
-Lays Chips::1.94::5
-Snickers Bar::2.65::4
+Lays Chips::1.94::2
+Snickers Bar::2.65::3
 Clif Bars::3.30::0
 Sun Chips::1.57::2
 Cheez-its::1.85::0

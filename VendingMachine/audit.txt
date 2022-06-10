@@ -542,3 +542,80 @@ Total= $5.00
 2022-06-10T17:26:27.152681700 : Items saved to file
 2022-06-10T17:27:04.730556400 : ====New Session====
 2022-06-10T17:27:04.743568900 : Items loaded from file
+2022-06-10T17:43:01.510373300 : ====New Session====
+2022-06-10T17:43:01.523384900 : Items loaded from file
+2022-06-10T17:43:14.419766500 : 1.94$ added to funds
+2022-06-10T17:43:17.270079500 : Item: Lays Chips vended.
+2022-06-10T17:43:18.704132600 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=0
+Total= $0.00
+2022-06-10T17:43:28.210101700 : Items saved to file
+2022-06-10T17:43:40.275061900 : ====New Session====
+2022-06-10T17:43:40.290075900 : Items loaded from file
+2022-06-10T17:45:47.858204100 : ====New Session====
+2022-06-10T17:45:47.872217 : Items loaded from file
+2022-06-10T17:45:54.327414400 : 1.94$ added to funds
+2022-06-10T17:45:54.336422100 : Change has been returned.
+Change:
+Penny=4
+Nickle=1
+Dime=1
+Quarter=7
+Total= $1.94
+2022-06-10T17:46:09.188684100 : 1.94$ added to funds
+2022-06-10T17:46:09.191687100 : Change has been returned.
+Change:
+Penny=4
+Nickle=1
+Dime=1
+Quarter=7
+Total= $1.94
+2022-06-10T17:47:38.095703600 : ====New Session====
+2022-06-10T17:47:38.108715100 : Items loaded from file
+2022-06-10T17:47:40.214200900 : 5.00$ added to funds
+2022-06-10T17:47:43.503558700 : Item: Lays Chips vended.
+2022-06-10T17:47:44.707073200 : Change has been returned.
+Change:
+Penny=1
+Nickle=1
+Dime=0
+Quarter=12
+Total= $3.06
+2022-06-10T17:47:56.407862700 : 1.94$ added to funds
+2022-06-10T17:48:00.669902 : Item: Lays Chips vended.
+2022-06-10T17:48:06.667968100 : Items saved to file
+2022-06-10T17:48:12.791641700 : ====New Session====
+2022-06-10T17:48:12.804653100 : Items loaded from file
+2022-06-10T17:48:17.199215 : 5.00$ added to funds
+2022-06-10T17:48:19.054400500 : Item: Snickers Bar vended.
+2022-06-10T17:48:20.040229100 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=1
+Quarter=9
+Total= $2.35
+2022-06-10T17:48:25.940121500 : Items saved to file
+2022-06-10T17:48:58.543005200 : ====New Session====
+2022-06-10T17:48:58.556017100 : Items loaded from file
+2022-06-10T17:49:03.076210200 : 5.00$ added to funds
+2022-06-10T17:49:10.611224100 : Item: Lays Chips vended.
+2022-06-10T17:49:11.270134300 : Change has been returned.
+Change:
+Penny=1
+Nickle=1
+Dime=0
+Quarter=12
+Total= $3.06
+2022-06-10T17:49:32.819501400 : 1.00$ added to funds
+2022-06-10T17:49:37.641536700 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=4
+Total= $1.00

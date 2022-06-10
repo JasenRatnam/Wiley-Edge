@@ -24,10 +24,9 @@ public class VendingMachineServiceLayerImpl implements VendingMachineServiceLaye
      * @param auditDao 
      * @throws com.mycompany.vendingmachine.dao.VendingMachinePersistenceException 
      */
-    public VendingMachineServiceLayerImpl(VendingMachineDao dao, VendingMachineAuditDao auditDao) throws VendingMachinePersistenceException {
+    public VendingMachineServiceLayerImpl(VendingMachineDao dao, VendingMachineAuditDao auditDao) {
         this.dao = dao;
         this.auditDao = auditDao;
-        auditDao.writeAuditEntry("====New Session====");
     }
     
     /**

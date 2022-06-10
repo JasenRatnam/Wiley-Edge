@@ -14,5 +14,4 @@ public interface VendingMachineAuditDao {
      * @throws VendingMachinePersistenceException if an error occurs while saving the audit to a file
      */
     public void writeAuditEntry(String entry) throws VendingMachinePersistenceException;
-
 }
