@@ -36,3 +36,12 @@ hs_err_pid*
 /ClassRoster/target/
 /AddressBook/target/
 /DVDLibrary/target/
+/ClassRoster/nbproject/
+/StatelessUnitTesting/target/
+/StatelessUnitTesting/nbproject/
+/AddressBook/nbproject/
+/DaysUntilFriday/target/
+/MathOperators/target/
+/BirthDAYCalculator/target/
+/VendingMachine/target/
+/VendingMachine/nbproject/

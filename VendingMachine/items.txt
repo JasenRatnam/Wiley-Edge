@@ -1,0 +1,7 @@
+Lays Chips::1.94::5
+Snickers Bar::2.65::4
+Clif Bars::3.30::0
+Sun Chips::1.57::2
+Cheez-its::1.85::0
+Pretzels::2.43::9
+Pepsi::1.33::0

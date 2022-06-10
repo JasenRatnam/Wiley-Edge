@@ -11,7 +11,11 @@ import java.util.List;
  */
 public class ClassRosterView {
     //use the IO class to communicate with user
-    private UserIO io = new UserIOConsoleImpl();
+    private UserIO io;
+
+    public ClassRosterView(UserIO myIo) {
+        this.io = myIo;
+    }
 
     //menu
     public int printMenuAndGetSelection() {
@@ -111,6 +115,12 @@ public class ClassRosterView {
     //display exit banner
     public void displayExitBanner() {
         io.print("Good Bye!!!");
+    }
+    
+    //display exit banner
+    public void displayErrorMessage(String errorMsg) {
+        io.print("=== ERROR ===");
+        io.print(errorMsg);
     }
 
     //display unkown command banner
