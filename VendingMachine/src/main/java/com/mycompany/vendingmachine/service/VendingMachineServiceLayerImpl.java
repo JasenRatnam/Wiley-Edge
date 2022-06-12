@@ -22,7 +22,6 @@ public class VendingMachineServiceLayerImpl implements VendingMachineServiceLaye
      * constructor that initializes dao and auditdao
      * @param dao
      * @param auditDao 
-     * @throws com.mycompany.vendingmachine.dao.VendingMachinePersistenceException 
      */
     public VendingMachineServiceLayerImpl(VendingMachineDao dao, VendingMachineAuditDao auditDao) {
         this.dao = dao;

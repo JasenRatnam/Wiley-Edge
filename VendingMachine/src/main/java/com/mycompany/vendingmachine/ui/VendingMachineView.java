@@ -99,15 +99,15 @@ public class VendingMachineView {
     }
 
     public BigDecimal getNewFundInfo() {
-        BigDecimal bigDecimalFund = new BigDecimal("0.00");
+        BigDecimal bigDecimalFund = BigDecimal.ZERO;
         String fund = io.readString("Enter funds to add to the machine: ");
         if(isNumeric(fund)) 
             bigDecimalFund = new BigDecimal(fund);
             
-        if(bigDecimalFund.compareTo( new BigDecimal("0.00")) <= 0){
+        if(bigDecimalFund.compareTo( BigDecimal.ZERO) <= 0){
             io.readString("You must enter a number bigger than 0. Please hit enter to continue");
             
-            return new BigDecimal("0.00");
+            return BigDecimal.ZERO;
         }
         
         BigDecimal b = bigDecimalFund.setScale(2, RoundingMode.HALF_UP);

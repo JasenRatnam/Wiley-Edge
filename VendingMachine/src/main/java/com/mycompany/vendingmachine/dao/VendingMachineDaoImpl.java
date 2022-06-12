@@ -15,7 +15,6 @@ import java.math.RoundingMode;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-import java.util.stream.Collectors;
 
 /**
  * implementation of vending machine dao interface
@@ -30,7 +29,7 @@ public class VendingMachineDaoImpl implements VendingMachineDao{
     
     // data structure to save items
     private List<VendingItem> items = new ArrayList<>(); 
-    private BigDecimal fund = new BigDecimal("0.00");
+    private BigDecimal fund = BigDecimal.ZERO;
 
     /**
      * default constructor
@@ -55,7 +54,7 @@ public class VendingMachineDaoImpl implements VendingMachineDao{
     @Override
     public ArrayList<VendingItem> getAllItems() {
         
-        return new ArrayList(items);
+        return (ArrayList<VendingItem>) items;
     }
 
     /**
@@ -93,7 +92,7 @@ public class VendingMachineDaoImpl implements VendingMachineDao{
      */
     @Override
     public void emptyFunds() {
-        fund = new BigDecimal("0.00");
+        fund = BigDecimal.ZERO;
     }
 
     /**
@@ -142,6 +141,7 @@ public class VendingMachineDaoImpl implements VendingMachineDao{
     @Override
     public void loadItems() throws VendingMachinePersistenceException{
         Scanner scanner;
+        items.clear();
 
         try {
             // Create Scanner for reading the file

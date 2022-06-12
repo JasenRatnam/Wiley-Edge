@@ -225,6 +225,6 @@ public class VendingMachineController {
     }
 
     private boolean haveFunds() {
-        return getFunds().compareTo(new BigDecimal("0.00")) != 0;
+        return getFunds().compareTo(BigDecimal.ZERO) != 0;
     }
 }

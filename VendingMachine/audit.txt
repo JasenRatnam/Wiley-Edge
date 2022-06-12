@@ -619,3 +619,27 @@ Nickle=0
 Dime=0
 Quarter=4
 Total= $1.00
+2022-06-11T11:21:12.665786 : Items loaded from file
+2022-06-11T11:21:33.011178500 : Items saved to file
+2022-06-11T11:21:37.461518300 : Items loaded from file
+2022-06-11T11:21:41.445276500 : 5.00$ added to funds
+2022-06-11T11:21:44.501155200 : Item: Lays Chips vended.
+2022-06-11T11:21:45.924215100 : Change has been returned.
+Change:
+Penny=1
+Nickle=1
+Dime=0
+Quarter=12
+Total= $3.06
+2022-06-11T11:48:10.703465300 : Items loaded from file
+2022-06-11T11:48:24.584260400 : 5.00$ added to funds
+2022-06-11T11:48:26.703200100 : Item: Lays Chips vended.
+2022-06-11T11:48:28.132135600 : Change has been returned.
+Change:
+Penny=1
+Nickle=1
+Dime=0
+Quarter=12
+Total= $3.06
+2022-06-12T12:22:14.881436 : Items loaded from file
+2022-06-12T12:54:42.643654200 : Items loaded from file
