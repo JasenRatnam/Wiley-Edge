@@ -643,3 +643,35 @@ Quarter=12
 Total= $3.06
 2022-06-12T12:22:14.881436 : Items loaded from file
 2022-06-12T12:54:42.643654200 : Items loaded from file
+2022-06-13T11:11:07.152551400 : Items loaded from file
+2022-06-13T11:12:24.677557 : Items loaded from file
+2022-06-13T11:16:17.840939300 : Items loaded from file
+2022-06-13T11:16:36.345508600 : Items saved to file
+2022-06-13T11:16:39.251045800 : Items loaded from file
+2022-06-13T11:16:45.518298 : 5.00$ added to funds
+2022-06-13T11:16:46.934678800 : Item: Lays Chips vended.
+2022-06-13T11:16:48.586859600 : Change has been returned.
+Change:
+Penny=1
+Nickle=1
+Dime=0
+Quarter=12
+Total= $3.06
+2022-06-13T11:16:53.050690900 : 5.00$ added to funds
+2022-06-13T11:16:57.975446800 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=20
+Total= $5.00
+2022-06-13T11:17:02.676897100 : 5.00$ added to funds
+2022-06-13T11:17:06.723417400 : Item: Pretzels vended.
+2022-06-13T11:17:08.694425700 : Change has been returned.
+Change:
+Penny=2
+Nickle=1
+Dime=0
+Quarter=10
+Total= $2.57
+2022-06-13T11:17:54.060636 : Items loaded from file
