@@ -1,0 +1,704 @@
+2022-06-09T18:30:14.995183900 : 500.00$ added to funds
+2022-06-09T18:30:40.206174800 : 500.00$ added to funds
+2022-06-09T18:32:22.105520100 : 500.00$ added to funds
+2022-06-09T18:32:28.534507100 : 500.00$ added to funds
+2022-06-09T18:36:12.096419900 : 500.00$ added to funds
+2022-06-09T18:36:17.433438900 : 500.00$ added to funds
+2022-06-09T18:59:50.171414700 : 500.00$ added to funds
+2022-06-09T18:59:55.741207500 : Item: Snickers Bar vended.
+2022-06-09T19:00:17.647215700 : 500.00$ added to funds
+2022-06-09T19:00:26.707455900 : Item: Snickers Bar vended.
+2022-06-09T19:00:29.770202500 : Item: Clif Bars vended.
+2022-06-09T19:00:32.937247700 : Item: Sun Chips vended.
+2022-06-09T19:00:35.349401800 : Item: Cheez-its vended.
+2022-06-09T19:00:37.531646700 : Item: Pretzels vended.
+2022-06-09T19:01:09.047217100 : 500.00$ added to funds
+2022-06-09T19:01:14.401205400 : Item: Clif Bars vended.
+2022-06-09T19:01:27.500114600 : Item: Cheez-its vended.
+2022-06-09T19:01:52.438218100 : 500.00$ added to funds
+2022-06-09T19:01:56.360213700 : Item: Lays Chips vended.
+2022-06-09T19:02:03.467219900 : Item: Snickers Bar vended.
+2022-06-09T19:02:06.314455500 : Item: Clif Bars vended.
+2022-06-09T19:02:08.493986100 : Item: Sun Chips vended.
+2022-06-09T19:02:11.552652100 : Item: Cheez-its vended.
+2022-06-09T19:02:14.400333800 : Item: Pretzels vended.
+2022-06-09T19:02:16.902957500 : Item: Pepsi vended.
+2022-06-09T19:13:49.022842900 : 500.00$ added to funds
+2022-06-09T19:13:52.726130 : Item: Lays Chips vended.
+2022-06-09T19:13:55.776854300 : Item: Snickers Bar vended.
+2022-06-09T19:14:24.576103200 : 500.00$ added to funds
+2022-06-09T19:14:30.676598800 : 500.00$ added to funds
+2022-06-09T19:14:40.509051700 : Item: Lays Chips vended.
+2022-06-09T19:14:54.804253300 : -1000.00$ added to funds
+2022-06-09T19:15:14.751370700 : 500.00$ added to funds
+2022-06-09T19:15:18.017355900 : Item: Lays Chips vended.
+2022-06-09T19:15:19.985494300 : Item: Snickers Bar vended.
+2022-06-09T19:15:31.915367500 : -500.00$ added to funds
+2022-06-09T19:39:08.078734500 : 2.00$ added to funds
+2022-06-09T19:39:12.433511700 : 2.00$ added to funds
+2022-06-09T19:39:20.290049200 : Item: Lays Chips vended.
+2022-06-09T19:39:38.749855300 : 2.00$ added to funds
+2022-06-09T19:39:43.436216 : Item: Lays Chips vended.
+2022-06-09T19:39:50.111366500 : Item: Lays Chips vended.
+2022-06-09T19:39:54.914836900 : Item: Lays Chips vended.
+2022-06-09T19:44:05.166553200 : 500.00$ added to funds
+2022-06-09T19:44:10.295100800 : Item: Lays Chips vended.
+2022-06-09T19:44:14.114926200 : Item: Snickers Bar vended.
+2022-06-09T19:44:16.633955300 : Item: Clif Bars vended.
+2022-06-10T09:27:31.519367800 : 10.00$ added to funds
+2022-06-10T09:27:36.314362 : Item: Lays Chips vended.
+2022-06-10T10:15:53.103637400 : 5.00$ added to funds
+2022-06-10T10:15:55.828048100 : Item: Lays Chips vended.
+2022-06-10T10:15:59.092031300 : Item: Lays Chips vended.
+2022-06-10T10:36:14.153471300 : Items loaded from file
+2022-06-10T10:36:19.757989900 : 2.00$ added to funds
+2022-06-10T10:36:24.885310300 : Item: null could not be vended.
+2022-06-10T11:14:15.622668400 : Items loaded from file
+2022-06-10T11:15:34.731625600 : Items loaded from file
+2022-06-10T11:15:48.905699700 : 2.00$ added to funds
+2022-06-10T11:15:53.690596900 : Item: Lays Chips vended.
+2022-06-10T11:17:17.101683 : Items loaded from file
+2022-06-10T11:17:29.150387600 : 2.00$ added to funds
+2022-06-10T11:17:35.375996300 : Item: Lays Chips vended.
+2022-06-10T11:30:16.894959900 : Items loaded from file
+2022-06-10T11:43:26.376478300 : Items loaded from file
+2022-06-10T13:08:20.773074100 : Items loaded from file
+2022-06-10T13:55:14.827713800 : Items loaded from file
+2022-06-10T13:55:26.781990100 : 5.00$ added to funds
+2022-06-10T13:55:33.241131500 : Item: Clif Bars vended.
+2022-06-10T13:55:35.967414200 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=7
+Total= $1.75
+2022-06-10T13:58:18.317577300 : Items loaded from file
+2022-06-10T13:58:21.849459400 : 5.00$ added to funds
+2022-06-10T13:58:23.809400500 : Item: Clif Bars vended.
+2022-06-10T13:58:25.342116100 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=7
+Total= $1.75
+2022-06-10T13:58:30.782702700 : Items saved to file
+2022-06-10T13:58:36.840336 : Items loaded from file
+2022-06-10T13:58:38.300211900 : Items saved to file
+2022-06-10T13:58:41.807109500 : Items loaded from file
+2022-06-10T15:00:42.531452900 : Items loaded from file
+2022-06-10T15:01:01.456457700 : Items loaded from file
+2022-06-10T15:01:19.113781600 : 5.00$ added to funds
+2022-06-10T15:01:23.811050800 : Item: Pretzels vended.
+2022-06-10T15:01:26.552961300 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=9
+Total= $2.25
+2022-06-10T15:01:43.156212900 : Items saved to file
+2022-06-10T15:17:15.202241900 : Items loaded from file
+2022-06-10T15:17:29.999002800 : Items loaded from file
+2022-06-10T15:18:03.779671400 : 5.00$ added to funds
+2022-06-10T15:18:08.482689100 : Item: Lays Chips vended.
+2022-06-10T15:18:09.479447 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=13
+Total= $3.25
+2022-06-10T15:18:12.534812600 : 5.00$ added to funds
+2022-06-10T15:18:14.391330200 : Item: Snickers Bar vended.
+2022-06-10T15:18:15.923620500 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=10
+Total= $2.50
+2022-06-10T15:18:19.207899100 : 5.00$ added to funds
+2022-06-10T15:18:21.951617 : Item: Clif Bars vended.
+2022-06-10T15:18:23.270652600 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=7
+Total= $1.75
+2022-06-10T15:18:26.114909100 : 5.00$ added to funds
+2022-06-10T15:18:28.083594700 : Item: Sun Chips vended.
+2022-06-10T15:18:29.835794600 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=14
+Total= $3.50
+2022-06-10T15:18:32.575088500 : 5.00$ added to funds
+2022-06-10T15:19:01.025808600 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=20
+Total= $5.00
+2022-06-10T15:19:06.638651400 : 5.00$ added to funds
+2022-06-10T15:19:08.616054200 : Item: Pretzels vended.
+2022-06-10T15:19:16.824969600 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=9
+Total= $2.25
+2022-06-10T15:19:52.158250100 : Items loaded from file
+2022-06-10T15:19:56.360579200 : 5.00$ added to funds
+2022-06-10T15:22:34.799617600 : Items loaded from file
+2022-06-10T15:24:15.374260300 : Items loaded from file
+2022-06-10T15:24:17.384055400 : Items saved to file
+2022-06-10T15:24:22.882580800 : Items loaded from file
+2022-06-10T15:24:29.585459800 : 5.00$ added to funds
+2022-06-10T15:30:42.812591 : Items loaded from file
+2022-06-10T15:30:48.401497800 : 5.00$ added to funds
+2022-06-10T15:30:50.577469200 : Item: Pretzels vended.
+2022-06-10T15:30:52.770015 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=9
+Total= $2.25
+2022-06-10T15:30:56.147086300 : 5.00$ added to funds
+2022-06-10T15:30:57.563426100 : Item: Lays Chips vended.
+2022-06-10T15:30:58.327490900 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=13
+Total= $3.25
+2022-06-10T15:31:02.790324 : 3.00$ added to funds
+2022-06-10T15:31:05.075323500 : Item: Snickers Bar vended.
+2022-06-10T15:31:08.125407300 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=2
+Total= $0.50
+2022-06-10T15:31:18.788119700 : 5.00$ added to funds
+2022-06-10T15:31:21.947059800 : Item: Clif Bars vended.
+2022-06-10T15:31:23.901483900 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=7
+Total= $1.75
+2022-06-10T15:31:27.500309900 : 5.00$ added to funds
+2022-06-10T15:31:29.349725600 : Item: Sun Chips vended.
+2022-06-10T15:31:31.094939500 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=14
+Total= $3.50
+2022-06-10T15:31:33.597591300 : 5.00$ added to funds
+2022-06-10T15:31:34.686336600 : Item: Cheez-its vended.
+2022-06-10T15:32:08.386390300 : Items loaded from file
+2022-06-10T15:32:15.305816300 : 5.00$ added to funds
+2022-06-10T15:32:19.986336700 : Item: Lays Chips vended.
+2022-06-10T15:32:22.057637600 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=13
+Total= $3.25
+2022-06-10T15:32:25.645965900 : 5.00$ added to funds
+2022-06-10T15:32:30.657299400 : Item: Lays Chips vended.
+2022-06-10T15:32:34.795873200 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=13
+Total= $3.25
+2022-06-10T15:32:38.172276300 : 5.00$ added to funds
+2022-06-10T15:32:40.994015100 : Item: Snickers Bar vended.
+2022-06-10T15:32:43.721272800 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=10
+Total= $2.50
+2022-06-10T15:32:46.442272800 : 5.00$ added to funds
+2022-06-10T15:32:51.342785400 : Item: Clif Bars vended.
+2022-06-10T15:32:52.757941700 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=7
+Total= $1.75
+2022-06-10T15:33:04.979261800 : 5.00$ added to funds
+2022-06-10T15:33:11.732037500 : Item: Sun Chips vended.
+2022-06-10T15:33:13.476778 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=14
+Total= $3.50
+2022-06-10T15:33:16.858313400 : 5.00$ added to funds
+2022-06-10T15:33:18.277765300 : Item: Pretzels vended.
+2022-06-10T15:33:19.365953 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=9
+Total= $2.25
+2022-06-10T15:33:22.854590800 : 5.00$ added to funds
+2022-06-10T15:33:25.785271 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=20
+Total= $5.00
+2022-06-10T15:33:30.890947900 : Items saved to file
+2022-06-10T15:33:30.895952400 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=0
+Total= $0.00
+2022-06-10T15:33:40.081489200 : Items loaded from file
+2022-06-10T15:33:41.971457200 : Items saved to file
+2022-06-10T15:33:45.890393700 : Items loaded from file
+2022-06-10T15:33:48.216282900 : 5.00$ added to funds
+2022-06-10T15:33:51.626639400 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=20
+Total= $5.00
+2022-06-10T15:33:53.367919200 : Items saved to file
+2022-06-10T15:33:53.373924 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=0
+Total= $0.00
+2022-06-10T15:35:22.004722300 : Items loaded from file
+2022-06-10T15:35:25.547884800 : Items saved to file
+2022-06-10T15:35:28.861447400 : Items loaded from file
+2022-06-10T15:35:31.406182900 : 5.00$ added to funds
+2022-06-10T15:35:34.468402 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=20
+Total= $5.00
+2022-06-10T15:35:35.995876900 : Items saved to file
+2022-06-10T15:35:48.312971400 : Items loaded from file
+2022-06-10T15:35:50.533862500 : 5.00$ added to funds
+2022-06-10T15:35:52.283743300 : Item: Lays Chips vended.
+2022-06-10T15:35:53.270857300 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=13
+Total= $3.25
+2022-06-10T15:35:59.369999100 : Items saved to file
+2022-06-10T15:36:17.286471500 : Items loaded from file
+2022-06-10T15:36:19.608189700 : 5.00$ added to funds
+2022-06-10T15:36:23.005128400 : Item: Lays Chips vended.
+2022-06-10T15:36:24.318653700 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=13
+Total= $3.25
+2022-06-10T15:36:30.200181400 : 5.00$ added to funds
+2022-06-10T15:36:31.833187 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=20
+Total= $5.00
+2022-06-10T15:36:34.444867600 : Items saved to file
+2022-06-10T17:00:25.342440300 : Items loaded from file
+2022-06-10T17:00:45.096481500 : 5.00$ added to funds
+2022-06-10T17:00:51.631319500 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=20
+Total= $5.00
+2022-06-10T17:01:00.326964400 : 5.00$ added to funds
+2022-06-10T17:01:11.630392700 : Item: Cheez-its vended.
+2022-06-10T17:01:15.106798800 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=15
+Total= $3.75
+2022-06-10T17:01:33.933878100 : 5.00$ added to funds
+2022-06-10T17:01:36.869496 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=20
+Total= $5.00
+2022-06-10T17:01:41.769102400 : Items saved to file
+2022-06-10T17:02:30.285591100 : Items loaded from file
+2022-06-10T17:02:53.514667100 : Items saved to file
+2022-06-10T17:02:59.066459500 : Items loaded from file
+2022-06-10T17:03:21.219061900 : 5.00$ added to funds
+2022-06-10T17:03:22.843903100 : Item: Lays Chips vended.
+2022-06-10T17:03:44.677051 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=13
+Total= $3.25
+2022-06-10T17:03:55.041462600 : 5.00$ added to funds
+2022-06-10T17:03:57.544736700 : Item: Snickers Bar vended.
+2022-06-10T17:03:58.738045900 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=10
+Total= $2.50
+2022-06-10T17:04:02.343846600 : 5.00$ added to funds
+2022-06-10T17:04:08.465238300 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=20
+Total= $5.00
+2022-06-10T17:04:11.296250500 : 5.00$ added to funds
+2022-06-10T17:04:13.156465100 : Item: Sun Chips vended.
+2022-06-10T17:04:13.919539200 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=14
+Total= $3.50
+2022-06-10T17:04:17.395383200 : 5.00$ added to funds
+2022-06-10T17:04:21.859162400 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=20
+Total= $5.00
+2022-06-10T17:04:28.599039100 : 5.00$ added to funds
+2022-06-10T17:04:32.294566900 : Item: Pretzels vended.
+2022-06-10T17:04:33.280680400 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=9
+Total= $2.25
+2022-06-10T17:04:41.866626 : 5.00$ added to funds
+2022-06-10T17:04:45.017974500 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=20
+Total= $5.00
+2022-06-10T17:04:50.458576400 : Items saved to file
+2022-06-10T17:11:02.438087900 : Items loaded from file
+2022-06-10T17:11:15.433442 : 5.00$ added to funds
+2022-06-10T17:11:18.149863400 : Item: Sun Chips vended.
+2022-06-10T17:11:19.245500600 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=14
+Total= $3.50
+2022-06-10T17:11:25.215151800 : 1.00$ added to funds
+2022-06-10T17:11:33.934747100 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=4
+Total= $1.00
+2022-06-10T17:11:40.238817700 : 5.00$ added to funds
+2022-06-10T17:11:41.654969100 : Item: Sun Chips vended.
+2022-06-10T17:11:42.852100900 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=14
+Total= $3.50
+2022-06-10T17:11:56.025852300 : 5.00$ added to funds
+2022-06-10T17:12:01.138856600 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=20
+Total= $5.00
+2022-06-10T17:17:02.457615900 : Items loaded from file
+2022-06-10T17:20:44.028277 : Items loaded from file
+2022-06-10T17:20:47.446176300 : 5.00$ added to funds
+2022-06-10T17:20:51.272816500 : 0.00$ added to funds
+2022-06-10T17:20:53.131375300 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=20
+Total= $5.00
+2022-06-10T17:21:13.430117100 : 0.00$ added to funds
+2022-06-10T17:21:52.776899900 : Items loaded from file
+2022-06-10T17:21:58.057100 : 0.00$ added to funds
+2022-06-10T17:22:06.149129900 : 0.00$ added to funds
+2022-06-10T17:22:20.265962800 : Items loaded from file
+2022-06-10T17:22:36.457202600 : 0.00$ added to funds
+2022-06-10T17:22:46.191768900 : 5.00$ added to funds
+2022-06-10T17:22:51.656809400 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=20
+Total= $5.00
+2022-06-10T17:22:56.341595 : Items saved to file
+2022-06-10T17:23:01.969162500 : Items loaded from file
+2022-06-10T17:23:03.543118 : 5.00$ added to funds
+2022-06-10T17:23:06.712103300 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=20
+Total= $5.00
+2022-06-10T17:25:36.065975900 : ====New Session====
+2022-06-10T17:25:36.078988100 : Items loaded from file
+2022-06-10T17:25:40.035705100 : 5.00$ added to funds
+2022-06-10T17:25:43.310544700 : Item: Lays Chips vended.
+2022-06-10T17:25:44.621005100 : Change has been returned.
+Change:
+Penny=1
+Nickle=1
+Dime=0
+Quarter=12
+Total= $3.06
+2022-06-10T17:25:55.866194400 : 5.00$ added to funds
+2022-06-10T17:26:00.021543400 : Item: Clif Bars vended.
+2022-06-10T17:26:01.113705300 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=2
+Quarter=6
+Total= $1.70
+2022-06-10T17:26:06.907111200 : 5.00$ added to funds
+2022-06-10T17:26:10.196778800 : Item: Clif Bars vended.
+2022-06-10T17:26:10.962866800 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=2
+Quarter=6
+Total= $1.70
+2022-06-10T17:26:14.240530600 : 5.00$ added to funds
+2022-06-10T17:26:19.826895100 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=20
+Total= $5.00
+2022-06-10T17:26:27.152681700 : Items saved to file
+2022-06-10T17:27:04.730556400 : ====New Session====
+2022-06-10T17:27:04.743568900 : Items loaded from file
+2022-06-10T17:43:01.510373300 : ====New Session====
+2022-06-10T17:43:01.523384900 : Items loaded from file
+2022-06-10T17:43:14.419766500 : 1.94$ added to funds
+2022-06-10T17:43:17.270079500 : Item: Lays Chips vended.
+2022-06-10T17:43:18.704132600 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=0
+Total= $0.00
+2022-06-10T17:43:28.210101700 : Items saved to file
+2022-06-10T17:43:40.275061900 : ====New Session====
+2022-06-10T17:43:40.290075900 : Items loaded from file
+2022-06-10T17:45:47.858204100 : ====New Session====
+2022-06-10T17:45:47.872217 : Items loaded from file
+2022-06-10T17:45:54.327414400 : 1.94$ added to funds
+2022-06-10T17:45:54.336422100 : Change has been returned.
+Change:
+Penny=4
+Nickle=1
+Dime=1
+Quarter=7
+Total= $1.94
+2022-06-10T17:46:09.188684100 : 1.94$ added to funds
+2022-06-10T17:46:09.191687100 : Change has been returned.
+Change:
+Penny=4
+Nickle=1
+Dime=1
+Quarter=7
+Total= $1.94
+2022-06-10T17:47:38.095703600 : ====New Session====
+2022-06-10T17:47:38.108715100 : Items loaded from file
+2022-06-10T17:47:40.214200900 : 5.00$ added to funds
+2022-06-10T17:47:43.503558700 : Item: Lays Chips vended.
+2022-06-10T17:47:44.707073200 : Change has been returned.
+Change:
+Penny=1
+Nickle=1
+Dime=0
+Quarter=12
+Total= $3.06
+2022-06-10T17:47:56.407862700 : 1.94$ added to funds
+2022-06-10T17:48:00.669902 : Item: Lays Chips vended.
+2022-06-10T17:48:06.667968100 : Items saved to file
+2022-06-10T17:48:12.791641700 : ====New Session====
+2022-06-10T17:48:12.804653100 : Items loaded from file
+2022-06-10T17:48:17.199215 : 5.00$ added to funds
+2022-06-10T17:48:19.054400500 : Item: Snickers Bar vended.
+2022-06-10T17:48:20.040229100 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=1
+Quarter=9
+Total= $2.35
+2022-06-10T17:48:25.940121500 : Items saved to file
+2022-06-10T17:48:58.543005200 : ====New Session====
+2022-06-10T17:48:58.556017100 : Items loaded from file
+2022-06-10T17:49:03.076210200 : 5.00$ added to funds
+2022-06-10T17:49:10.611224100 : Item: Lays Chips vended.
+2022-06-10T17:49:11.270134300 : Change has been returned.
+Change:
+Penny=1
+Nickle=1
+Dime=0
+Quarter=12
+Total= $3.06
+2022-06-10T17:49:32.819501400 : 1.00$ added to funds
+2022-06-10T17:49:37.641536700 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=4
+Total= $1.00
+2022-06-11T11:21:12.665786 : Items loaded from file
+2022-06-11T11:21:33.011178500 : Items saved to file
+2022-06-11T11:21:37.461518300 : Items loaded from file
+2022-06-11T11:21:41.445276500 : 5.00$ added to funds
+2022-06-11T11:21:44.501155200 : Item: Lays Chips vended.
+2022-06-11T11:21:45.924215100 : Change has been returned.
+Change:
+Penny=1
+Nickle=1
+Dime=0
+Quarter=12
+Total= $3.06
+2022-06-11T11:48:10.703465300 : Items loaded from file
+2022-06-11T11:48:24.584260400 : 5.00$ added to funds
+2022-06-11T11:48:26.703200100 : Item: Lays Chips vended.
+2022-06-11T11:48:28.132135600 : Change has been returned.
+Change:
+Penny=1
+Nickle=1
+Dime=0
+Quarter=12
+Total= $3.06
+2022-06-12T12:22:14.881436 : Items loaded from file
+2022-06-12T12:54:42.643654200 : Items loaded from file
+2022-06-13T11:11:07.152551400 : Items loaded from file
+2022-06-13T11:12:24.677557 : Items loaded from file
+2022-06-13T11:16:17.840939300 : Items loaded from file
+2022-06-13T11:16:36.345508600 : Items saved to file
+2022-06-13T11:16:39.251045800 : Items loaded from file
+2022-06-13T11:16:45.518298 : 5.00$ added to funds
+2022-06-13T11:16:46.934678800 : Item: Lays Chips vended.
+2022-06-13T11:16:48.586859600 : Change has been returned.
+Change:
+Penny=1
+Nickle=1
+Dime=0
+Quarter=12
+Total= $3.06
+2022-06-13T11:16:53.050690900 : 5.00$ added to funds
+2022-06-13T11:16:57.975446800 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=20
+Total= $5.00
+2022-06-13T11:17:02.676897100 : 5.00$ added to funds
+2022-06-13T11:17:06.723417400 : Item: Pretzels vended.
+2022-06-13T11:17:08.694425700 : Change has been returned.
+Change:
+Penny=2
+Nickle=1
+Dime=0
+Quarter=10
+Total= $2.57
+2022-06-13T11:17:54.060636 : Items loaded from file
+2022-06-14T09:52:59.285923900 : Items loaded from file
+2022-06-14T09:53:13.920872700 : 5.00$ added to funds
+2022-06-14T09:53:17.535699500 : Item: Snickers Bar vended.
+2022-06-14T09:53:18.633816800 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=1
+Quarter=9
+Total= $2.35
+2022-06-14T09:53:25.414554400 : 5.00$ added to funds
+2022-06-14T09:53:28.592897200 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=20
+Total= $5.00
+2022-06-14T09:53:37.016843900 : 2.00$ added to funds
+2022-06-14T09:53:41.733880600 : Change has been returned.
+Change:
+Penny=0
+Nickle=0
+Dime=0
+Quarter=8
+Total= $2.00
+2022-06-14T09:53:46.127864400 : Items saved to file
