@@ -3,14 +3,14 @@ package com.mycompany.jrflooringmastery.controller;
 
 import com.mycompany.jrflooringmastery.dao.FlooringMasteryPersistenceException;
 import com.mycompany.jrflooringmastery.dto.Order;
+import com.mycompany.jrflooringmastery.dto.Product;
+import com.mycompany.jrflooringmastery.dto.Taxes;
+import com.mycompany.jrflooringmastery.service.FlooringMasteryDataValidationException;
 import com.mycompany.jrflooringmastery.service.FlooringMasteryServiceLayer;
 import com.mycompany.jrflooringmastery.service.NoOrderException;
 import com.mycompany.jrflooringmastery.ui.FlooringMasteryView;
 import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.Date;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 /**
  *
@@ -34,46 +34,36 @@ public class FlooringMasteryController {
         boolean keepGoing = true;
         int menuSelection = 0;
         
-        //while program is running
-        /*
-        try{
-        */
-            while (keepGoing) {
+        while (keepGoing) {
 
-                // print choices and get choice from user
-                menuSelection = getMenuSelection();
+            // print choices and get choice from user
+            menuSelection = getMenuSelection();
 
 
-                    //cases for choice chosen
-                    switch (menuSelection) {
-                        case 1:
-                            displayOrders();
-                            break;
-                        case 2:
-                            addOrder();
-                            break;
-                        case 3:
-                            editOrder();
-                            break;
-                        case 4:
-                            removeOrder();
-                            break;
-                        case 5:
-                            exportData();
-                            break;
-                        case 6:
-                            keepGoing = false;
-                            break;
-                        default:
-                            unknownCommand();
-                    }
+                //cases for choice chosen
+                switch (menuSelection) {
+                    case 1:
+                        displayOrders();
+                        break;
+                    case 2:
+                        addOrder();
+                        break;
+                    case 3:
+                        editOrder();
+                        break;
+                    case 4:
+                        removeOrder();
+                        break;
+                    case 5:
+                        exportData();
+                        break;
+                    case 6:
+                        keepGoing = false;
+                        break;
+                    default:
+                        unknownCommand();
+                }
             }
-        
-          /*  
-        } catch(FlooringMasteryPersistenceException e){
-            view.displayErrorMessage(e.getMessage());
-        }*/
-        
         
         exitMessage();
     }
@@ -99,7 +89,6 @@ public class FlooringMasteryController {
      * If no orders exist for that date, 
      *      Display an error message: NoOrderException 
      * Return the user to the main menu.
-
      */
     private void displayOrders(){
         view.displayOrdersBanner();
@@ -108,24 +97,76 @@ public class FlooringMasteryController {
             LocalDate date = view.getOrderDate();
             orders = service.getAllOrders(date);
             view.displayOrders(orders);
-        } catch (NoOrderException | FlooringMasteryPersistenceException ex) {
+        } catch (FlooringMasteryPersistenceException ex) {
             view.displayErrorMessage(ex.getMessage());
         }
     }
 
+    /**
+     * add an order will query the user for each piece of order data necessary:
+     * The remaining fields are calculated from the user entry
+     * prompt the user as to whether they want to place the order (Y/N)
+     * generate an order number for the user based on the next available order #
+     */
     private void addOrder() {
-        System.out.println("Add orders");
+        view.displayAddOrderBanner();
+        try {
+            ArrayList<Taxes> taxes = service.getTaxes();
+            ArrayList<Product> products = service.getProducts();
+            Order newOrder = view.getNewOrderInformation(taxes, products);
+            boolean confirmation = view.confirmOrder(newOrder);
+            if(confirmation)
+                service.createOrder(newOrder);
+        } catch (FlooringMasteryDataValidationException | FlooringMasteryPersistenceException ex) {
+            view.displayErrorMessage(ex.getMessage());
+        } 
     }
 
     private void editOrder() {
-        System.out.println("Edit orders");
+        view.displayEditOrderBanner();
+        try{
+            LocalDate date = view.getOrderDate();
+            int orderNumber = view.getOrderNumber();
+            ArrayList<Taxes> taxes = service.getTaxes();
+            ArrayList<Product> products = service.getProducts();
+            
+            Order order = service.getOrder(date, orderNumber);
+            Order updatedOrder = view.getUpdatedOrder(order, taxes, products);
+            Boolean confirmation = view.confirmOrder(updatedOrder);
+        
+            if(confirmation)
+                service.updateOrder(date, updatedOrder);
+        }catch (FlooringMasteryDataValidationException | NoOrderException | FlooringMasteryPersistenceException ex) {
+            view.displayErrorMessage(ex.getMessage());
+        } 
     }
 
     private void removeOrder() {
-        System.out.println("Remove orders");
+        try {
+            view.displayRemoveOrderBanner();
+            
+            LocalDate date = view.getOrderDate();
+            int orderNumber = view.getOrderNumber();
+            
+            Order order = service.getOrder(date, orderNumber);
+            Boolean confirmation = view.confirmOrder(order);
+            
+            if(confirmation)
+                service.removeOrder(date, order);
+        } catch (FlooringMasteryDataValidationException | NoOrderException | FlooringMasteryPersistenceException ex) {
+             view.displayErrorMessage(ex.getMessage());
+        } 
+        
     }
 
     private void exportData() {
-        System.out.println("Export Data");
+        try {
+            view.displayExportOrdersBanner();
+            service.exportData();
+            view.displayExportOrderSuccessBanner();
+        } catch (FlooringMasteryPersistenceException ex) {
+            view.displayErrorMessage(ex.getMessage());
+        }
+        
     }
 }

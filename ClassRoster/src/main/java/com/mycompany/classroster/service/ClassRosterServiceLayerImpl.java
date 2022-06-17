@@ -42,7 +42,6 @@ public class ClassRosterServiceLayerImpl implements ClassRosterServiceLayer{
 
    @Override
     public void createStudent(Student student) throws
-            ClassRosterDuplicateIdException,
             ClassRosterDataValidationException,
             ClassRosterPersistenceException {
 
@@ -50,12 +49,7 @@ public class ClassRosterServiceLayerImpl implements ClassRosterServiceLayer{
         // associated with the given student's id
         // If so, we're all done here - 
         // throw a ClassRosterDuplicateIdException
-        if (dao.getStudent(student.getStudentId()) != null) {
-            throw new ClassRosterDuplicateIdException(
-                    "ERROR: Could not create student.  Student Id "
-                    + student.getStudentId()
-                    + " already exists");
-        }
+       
 
         // Now validate all the fields on the given Student object.  
         // This method will throw an

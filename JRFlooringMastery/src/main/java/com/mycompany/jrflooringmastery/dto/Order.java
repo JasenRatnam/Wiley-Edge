@@ -2,8 +2,8 @@
 package com.mycompany.jrflooringmastery.dto;
 
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.time.LocalDate;
-import java.util.Date;
 import java.util.Objects;
 
 /**
@@ -29,15 +29,15 @@ public class Order {
     public Order(String customerName, String state, BigDecimal taxRate, String productType, BigDecimal area, BigDecimal costPerSquareFoot, BigDecimal laborCostPerSquareFoot, BigDecimal materialCost, BigDecimal laborCost, BigDecimal tax, BigDecimal total) {
         this.customerName = customerName;
         this.state = state;
-        this.taxRate = taxRate;
+        this.taxRate = taxRate.setScale(2, RoundingMode.HALF_UP);
         this.productType = productType;
-        this.area = area;
-        this.costPerSquareFoot = costPerSquareFoot;
-        this.laborCostPerSquareFoot = laborCostPerSquareFoot;
-        this.materialCost = materialCost;
-        this.laborCost = laborCost;
-        this.tax = tax;
-        this.total = total;
+        this.area = area.setScale(2, RoundingMode.HALF_UP);
+        this.costPerSquareFoot = costPerSquareFoot.setScale(2, RoundingMode.HALF_UP);
+        this.laborCostPerSquareFoot = laborCostPerSquareFoot.setScale(2, RoundingMode.HALF_UP);
+        this.materialCost = materialCost.setScale(2, RoundingMode.HALF_UP);
+        this.laborCost = laborCost.setScale(2, RoundingMode.HALF_UP);
+        this.tax = tax.setScale(2, RoundingMode.HALF_UP);
+        this.total = total.setScale(2, RoundingMode.HALF_UP);
     }
     
     public LocalDate getOrderDate() {
@@ -77,7 +77,7 @@ public class Order {
     }
 
     public void setTaxRate(BigDecimal taxRate) {
-        this.taxRate = taxRate;
+        this.taxRate = taxRate.setScale(2, RoundingMode.HALF_UP);
     }
 
     public String getProductType() {
@@ -93,7 +93,7 @@ public class Order {
     }
 
     public void setArea(BigDecimal area) {
-        this.area = area;
+        this.area = area.setScale(2, RoundingMode.HALF_UP);
     }
 
     public BigDecimal getCostPerSquareFoot() {
@@ -101,7 +101,7 @@ public class Order {
     }
 
     public void setCostPerSquareFoot(BigDecimal costPerSquareFoot) {
-        this.costPerSquareFoot = costPerSquareFoot;
+        this.costPerSquareFoot = costPerSquareFoot.setScale(2, RoundingMode.HALF_UP);
     }
 
     public BigDecimal getLaborCostPerSquareFoot() {
@@ -109,7 +109,7 @@ public class Order {
     }
 
     public void setLaborCostPerSquareFoot(BigDecimal laborCostPerSquareFoot) {
-        this.laborCostPerSquareFoot = laborCostPerSquareFoot;
+        this.laborCostPerSquareFoot = laborCostPerSquareFoot.setScale(2, RoundingMode.HALF_UP);
     }
 
     public BigDecimal getMaterialCost() {
@@ -117,7 +117,7 @@ public class Order {
     }
 
     public void setMaterialCost(BigDecimal materialCost) {
-        this.materialCost = materialCost;
+        this.materialCost = materialCost.setScale(2, RoundingMode.HALF_UP);
     }
 
     public BigDecimal getLaborCost() {
@@ -125,7 +125,7 @@ public class Order {
     }
 
     public void setLaborCost(BigDecimal laborCost) {
-        this.laborCost = laborCost;
+        this.laborCost = laborCost.setScale(2, RoundingMode.HALF_UP);
     }
 
     public BigDecimal getTax() {
@@ -133,7 +133,7 @@ public class Order {
     }
 
     public void setTax(BigDecimal tax) {
-        this.tax = tax;
+        this.tax = tax.setScale(2, RoundingMode.HALF_UP);
     }
 
     public BigDecimal getTotal() {
@@ -141,7 +141,7 @@ public class Order {
     }
 
     public void setTotal(BigDecimal total) {
-        this.total = total;
+        this.total = total.setScale(2, RoundingMode.HALF_UP);
     }
 
     @Override
@@ -212,8 +212,13 @@ public class Order {
 
     @Override
     public String toString() {
-        return "OrderNumber " + orderNumber 
-                + ": {\ncustomerName = " + customerName 
+        String output = "";
+        if(orderNumber != 0 )
+            output += "OrderNumber " + orderNumber;
+        else
+            output += "OrderNumber x";
+                
+        output += ": {\ncustomerName = " + customerName 
                 + ", \nstate = " + state 
                 + ", \ntaxRate = " + taxRate 
                 + ", \nproductType = " + productType 
@@ -224,8 +229,7 @@ public class Order {
                 + ", \nlaborCost = " + laborCost 
                 + ", \ntax = " + tax 
                 + ", \ntotal = " + total + "\n}\n";
+        
+        return output;
     }
-    
-    
-
 }

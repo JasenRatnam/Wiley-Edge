@@ -1,0 +1,4 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+4,Jasen,CA,25.00,Tile,170.00,3.50,4.15,595.00,705.50,325.13,1625.63
+6,Jasen,CA,25.00,Laminate,100.00,1.75,2.10,175.00,210.00,96.25,481.25
+7,Jasen,TX,4.45,Laminate,152.00,1.75,2.10,266.00,319.20,26.04,611.24

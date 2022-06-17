@@ -1,0 +1,2 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+8,JAsen,TX,4.45,Carpet,182.00,2.25,2.10,409.50,382.20,35.23,826.93
