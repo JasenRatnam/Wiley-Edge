@@ -14,10 +14,12 @@ import java.util.ArrayList;
  */
 public interface FlooringMasteryServiceLayer {
     public Order getOrder(LocalDate date, int orderNumber) throws NoOrderException, FlooringMasteryPersistenceException;
-    public void removeOrder(LocalDate date, Order updatedOrder) throws FlooringMasteryPersistenceException, FlooringMasteryDataValidationException;
+    
+    public void removeOrder(LocalDate date, Order updatedOrder) throws NoOrderException, FlooringMasteryPersistenceException, FlooringMasteryDataValidationException;
+    
     public void exportData() throws FlooringMasteryPersistenceException;
 
-    public ArrayList<Order> getAllOrders(LocalDate date) throws FlooringMasteryPersistenceException;
+    public ArrayList<Order> getAllOrders(LocalDate date) throws NoOrderException, FlooringMasteryPersistenceException;
 
     public ArrayList<Taxes> getTaxes() throws FlooringMasteryPersistenceException;
 
@@ -25,6 +27,6 @@ public interface FlooringMasteryServiceLayer {
 
     public void createOrder(Order newOrder) throws FlooringMasteryDataValidationException, FlooringMasteryPersistenceException;
 
-    public void updateOrder(LocalDate date, Order updatedOrder) throws FlooringMasteryPersistenceException, FlooringMasteryDataValidationException;
+    public void updateOrder(LocalDate date, Order updatedOrder) throws NoOrderException, FlooringMasteryPersistenceException, FlooringMasteryDataValidationException;
     
 }

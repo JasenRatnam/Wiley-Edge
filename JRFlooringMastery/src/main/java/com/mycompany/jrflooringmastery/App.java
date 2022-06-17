@@ -11,16 +11,18 @@ import com.mycompany.jrflooringmastery.service.FlooringMasteryServiceLayerImpl;
 import com.mycompany.jrflooringmastery.ui.FlooringMasteryView;
 import com.mycompany.jrflooringmastery.ui.UserIO;
 import com.mycompany.jrflooringmastery.ui.UserIOConsoleImpl;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
- *
+ * main app of application
  * @author Jasen Ratnam
  */
 public class App {
 
     public static void main(String[] args) {
         
-         
+         /**
         // Instantiate the UserIO implementation
         UserIO myIo = new UserIOConsoleImpl();
         // Instantiate the View and wire the UserIO implementation into it
@@ -35,6 +37,17 @@ public class App {
         FlooringMasteryController controller = new FlooringMasteryController(myService, myView);
         // Kick off the Controller
         controller.run();
+        **/
+        
+         ApplicationContext ctx = 
+          new ClassPathXmlApplicationContext("applicationContext.xml");
+       
+        //use get bean to retrieve the beans instantiated by the Spring
+        //bean to retreive, type of bean wanted
+        FlooringMasteryController controller = 
+           ctx.getBean("controller", FlooringMasteryController.class);
+       controller.run();
+         
     }
 
 }

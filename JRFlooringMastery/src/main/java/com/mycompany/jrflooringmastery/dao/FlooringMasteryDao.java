@@ -14,12 +14,17 @@ import java.util.List;
  */
 public interface FlooringMasteryDao {
 
-    public List<Order> getOrders(LocalDate date) throws FlooringMasteryPersistenceException;
+    public List<Order> getOrders(LocalDate date) throws FlooringMasteryPersistenceException, NoOrderException;
+    
     public void addOrder(Order order) throws FlooringMasteryPersistenceException;
+   
     public int getMaxOrderNumber() throws FlooringMasteryPersistenceException;
-    public void editOrder(Order updatedOrder) throws FlooringMasteryPersistenceException; 
+   
+    public void editOrder(Order updatedOrder) throws FlooringMasteryPersistenceException, NoOrderException; 
+    
     public Order getOrder(LocalDate date, int orderNumber) throws NoOrderException, FlooringMasteryPersistenceException; 
-    public void removeOrder(Order removededOrder)throws FlooringMasteryPersistenceException; 
+    
+    public void removeOrder(Order removededOrder)throws FlooringMasteryPersistenceException, NoOrderException; 
     
     public List<Taxes> getTaxes() throws FlooringMasteryPersistenceException;
 

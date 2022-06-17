@@ -14,6 +14,7 @@ public class Taxes {
     private String stateName;
     private BigDecimal taxRate;
 
+    
     public Taxes(String state, String stateName, BigDecimal taxRate) {
         this.state = state;
         this.stateName = stateName;
