@@ -30,7 +30,7 @@ import java.util.stream.Stream;
 
 /**
  * Data Access Object for the application
- * handles all operation realted to data
+ * handles all operation related to data
  * @author Jasen Ratnam
  */
 public class FlooringMasteryDaoImpl implements FlooringMasteryDao{
@@ -40,6 +40,7 @@ public class FlooringMasteryDaoImpl implements FlooringMasteryDao{
     private final String DATA_TAXES_FILE;
     private final String DELIMITER = ",";
     private int maxOrderNumber;
+    private boolean test = false;
     
     private List<Taxes> taxe = new ArrayList<>();
     private List<Product> product = new ArrayList<>();
@@ -64,6 +65,7 @@ public class FlooringMasteryDaoImpl implements FlooringMasteryDao{
         this.BACKUP_FILE = BACKUP_FILE;
         this.DATA_PRODUCTS_FILE = DATA_PRODUCTS_FILE;
         this.DATA_TAXES_FILE = DATA_TAXES_FILE;
+        test= true;
     }
     
     /**
@@ -377,7 +379,11 @@ public class FlooringMasteryDaoImpl implements FlooringMasteryDao{
     private String getOrderFileName(LocalDate date){
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMddyyyy");
 
-        String filename = "Orders/Orders_" + date.format(formatter) + ".txt";
+        String filename;
+        if(test)
+            filename = "Test/Orders/Orders_" + date.format(formatter) + ".txt";
+        else
+            filename = "Orders/Orders_" + date.format(formatter) + ".txt";
         
         return filename;
     }
@@ -597,8 +603,13 @@ public class FlooringMasteryDaoImpl implements FlooringMasteryDao{
                 
         List<File> filesInFolder = null;
         
+        String path;
+        if(test)
+            path = "Test/Orders";
+        else
+            path = "./Orders";
         //get list of files in the Orders folder
-        try (Stream<Path> filePathStream=Files.walk(Paths.get("./Orders"))) {
+        try (Stream<Path> filePathStream=Files.walk(Paths.get(path))) {
            filesInFolder = filePathStream.filter(Files::isRegularFile)
                           .map(Path::toFile)
                           .collect(Collectors.toList());
