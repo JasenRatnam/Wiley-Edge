@@ -1,0 +1,19 @@
+﻿Room,Type,Amenities,ADA Accessible,Standard Occupancy,Maximum Occupancy,Base Price,Extra Person
+201,Double,"Microwave, Jacuzzi",0,2,4,199.99,10
+202,Double,Refrigerator,1,2,4,174.99,10
+203,Double,"Microwave, Jacuzzi",0,2,4,199.99,10
+204,Double,Refrigerator,1,2,4,174.99,10
+205,Single,"Microwave, Refrigerator, Jacuzzi",0,2,2,174.99,0
+206,Single,"Microwave, Refrigerator",1,2,2,149.99,0
+207,Single,"Microwave, Refrigerator, Jacuzzi",0,2,2,174.99,0
+208,Single,"Microwave, Refrigerator",1,2,2,149.99,0
+301,Double,"Microwave, Jacuzzi",0,2,4,199.99,10
+302,Double,Refrigerator,1,2,4,174.99,10
+303,Double,"Microwave, Jacuzzi",0,2,4,199.99,10
+304,Double,Refrigerator,1,2,4,174.99,10
+305,Single,"Microwave, Refrigerator, Jacuzzi",0,2,2,174.99,0
+306,Single,"Microwave, Refrigerator,",1,2,2,149.99,0
+307,Single,"Microwave, Refrigerator, Jacuzzi",0,2,2,174.99,0
+308,Single,"Microwave, Refrigerator",1,2,2,149.99,0
+401,Suite,"Microwave, Refrigerator, Oven",1,3,8,399.99,20
+402,Suite,"Microwave, Refrigerator, Oven",1,3,8,399.99,20
