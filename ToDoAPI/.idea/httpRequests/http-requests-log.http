@@ -1,0 +1,12 @@
+GET http://api/todo/1
+
+###
+
+GET http://api/todo
+
+###
+
+GET http://api/todo
+
+###
+
