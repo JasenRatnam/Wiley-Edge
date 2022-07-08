@@ -1,0 +1,131 @@
+<!--
+    two-way biding to the card
+    user can enter theur own contact information
+-->
+<div>
+    <h2 class="projectTitle">
+        Project 1 - The Dynamic Business Card
+    </h2>
+    <hr />
+    <form>
+        <fieldset>
+            <legend>
+                Modify Your Business Card
+            </legend>
+            <label>
+                First Name
+            </label>
+            <input class="firstNameInput" (input)="firstName=$any($event.target).value"/>
+            <br/>
+
+            <label>
+                Last Name
+            </label>
+            <input class="lastNameInput" (input)="lastName=$any($event.target).value"/>
+            <br/>
+
+            <label>
+                Phone Number
+            </label>
+            <input class="phoneNumberInput" (input)="phoneNumber=$any($event.target).value"/>
+            <br/>
+        </fieldset>
+    </form>
+
+
+
+    <!--
+        large button that displays the contact information for the user. 
+    -->
+    <button class="card">
+
+        <!--First Row information-->
+        <div class="row clearfix">
+
+            <!--Phone Number, big letters, on the left-->
+            <div class="left big">
+                {{phoneNumber}}
+            </div>
+
+            <!--Brand,, on the right-->
+            <div class="right">
+                <p>
+                    <!--Big first letter-->
+                    <span class="big">
+                        E</span>rnst & 
+                    
+                    <!--Big first letter-->
+                    <span class="big">
+                        S</span>ohn
+                </p>
+                <p>
+                    <!--Medium first letter, no space-->
+                    <span class="med no-space">
+                        A W</span>
+                    <!--Small rest letter, no space-->
+                    <span class="small no-space">iley 
+                    </span>
+                    <!--Medium first letter, no space-->
+                    <span class="med no-space">
+                        B</span>
+                    <!--Small rest letter, no space-->
+                    <span class="small no-space">rand
+                    </span>
+                </p>
+            </div>
+        </div>
+
+        <!--Second Row information, name and title-->
+        <div class="row">
+            <!--Capatalize the name-->
+            <p class="capitalize">
+                {{firstName}} 
+                <span class="capitalize">
+                    {{lastName}}
+                </span>
+            </p>
+            <!--Capatalize the title-->
+            <p class="capitalize">
+                Vice 
+                <span class="capitalize">
+                    P</span>resident
+            </p>
+        </div>
+
+        <!--Third Row information, Address-->
+        <div class="row">
+            <p>
+                <!-- 
+                    med sixe cap letters, and small size the rest
+                -->
+                <span class="med">
+                    375 E</span>
+                <span class="small">xchange 
+                </span>
+                <span class="med">
+                    P</span>
+                <span class="small">lace 
+                </span>
+                <span class="med">
+                    N</span>
+                <span class="small">ew 
+                </span>
+                <span class="med">
+                    Y</span>
+                <span class="small">ork
+                </span>
+                <span class="med">
+                    , N. Y. 10099 F</span>
+                <span class="small">ax 
+                </span>
+                <span class="med">
+                    201 555 6390 T</span>
+                <span class="small">elex 
+                </span>
+                <span class="med">
+                    10 4534
+                </span>
+            </p>
+        </div>
+    </button>
+</div>

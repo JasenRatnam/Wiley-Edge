@@ -1,0 +1,14 @@
+<div *ngIf="bank" id="detail">
+    <!--
+        Angular pipe
+        causes the name of the bank to be in uppercase letters.
+    -->
+    <h2>{{bank.name | uppercase}}</h2> 
+    <h3>Details</h3>
+    <div><strong>ID: </strong>{{ bank.id }}</div>
+    <div><strong>Name:</strong> {{ bank.name }}</div>
+    <div>
+        <strong>Website:</strong> 
+        <a href="{{ bank.website }}">{{ bank.website }}</a>
+    </div>
+</div>

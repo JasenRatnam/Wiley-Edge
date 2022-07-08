@@ -1,0 +1,33 @@
+
+<!-- tells the IDE how to deal with future Thymeleaf attributes. -->
+<html xmlns:th="http://www.thymeleaf.org"
+    xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Test</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <!--
+         th:text attribute to the span tag 
+        values ${number} and ${firstName} to pick up the data from our Model.
+        variable names here match the key we used when we added it to the Model
+        
+        Any data we want on the page needs to be put into the Model
+        -->
+        
+        <p>Number: <span th:text="${number}"></span></p>
+        <p>Name: <span th:text="${firstName}"></span></p>
+        
+        <!-- 
+        create a form to POST data back to the server, 
+        Only type submit will POST the data back to the Controller method
+        -->
+        <form action="testForm" method="POST">
+            New Number: <input type="text" name="formNumber"/> <br/>
+            New Name: <input type="text" name="formFirstName"/><br/>
+            <button type="submit">Submit</button>
+        </form>
+        
+    </body>
+</html>

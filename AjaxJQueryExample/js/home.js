@@ -1,0 +1,29 @@
+//File for use in Ajax lesson
+$(document).ready(function(){
+
+    $.ajax({
+        type: 'GET',
+        url: 'http://contactlist.us-east-1.elasticbeanstalk.com/contacts',
+        success: function(contactArray) {
+            var contactsDiv = $('#allContacts');
+
+            //add all contacts
+            $.each(contactArray, function(index, contact) {
+                var contactInfo = '<p>';
+                contactInfo += 'Name: ' + contact.firstName + ' ' + contact.lastName + '<br>';
+                contactInfo += 'Company: ' + contact.company + '<br>';
+                contactInfo += 'Email: ' + contact.email + '<br>';
+                contactInfo += 'Phone: ' + contact.phone + '<br>';
+                contactInfo += '</p><hr>';
+            
+                contactsDiv.append(contactInfo);
+            })
+
+
+        },
+        error: function() {
+            alert('FAILURE!');
+        }
+    })
+
+})

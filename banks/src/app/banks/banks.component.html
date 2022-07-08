@@ -1,0 +1,14 @@
+<!-- connect the bank component to the banks dataset -->
+<ul class="banks">
+    <li *ngFor="let bank of banks"
+      [class.selected]="bank === selectedBank"
+      (click)="onSelect(bank)">
+      <!--
+        When the user clicks the item, 
+        Angular applies a specific CSS class (badge) to that item.
+      -->
+      <span class="badge">{{bank.id}}</span> {{bank.name}}
+    </li>
+</ul>
+<!--connect compenent when selected-->
+<app-bank-detail [bank]="selectedBank"></app-bank-detail>

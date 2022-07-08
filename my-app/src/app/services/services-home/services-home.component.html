@@ -1,0 +1,35 @@
+<div class="myServices">
+    <h3 appHighlight class="businessCardTitle">My Services</h3>
+    <!--
+        iterate through a list of services 
+        create a separate list item for each service in the dataset.
+         include only those services that the user has at least two years of experience
+    
+    <ul *ngFor="let bankingService of bankingServices">
+        <li *ngIf="bankingService.years > 2 && bankingService.years != 3 ">{{bankingService.type}}</li>
+    </ul>
+
+    -->
+
+    <!--
+        iterate through a list of services 
+        get category of evevry service in list
+        switch case to determine the output of the ngSwitch directive.
+        do different output depending on category of service given 
+    -->
+    <ul *ngFor="let bankingService of bankingServices" [ngSwitch]="bankingService.category">
+        <li appHighlight *ngSwitchCase="'loans'">
+            {{bankingService.type}}
+        </li>
+        <li *ngSwitchCase="'reports'">
+            {{bankingService.type}}
+        </li>
+        <li *ngSwitchCase="'financial_accounts'">
+            {{bankingService.type}}
+        </li>
+        <li appHighlight *ngSwitchDefault>
+            {{bankingService.type}}
+        </li>
+    </ul>
+
+</div>
